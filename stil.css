@@ -1,0 +1,10 @@
+/* İlk açıklama alanı 70px aşağıya kaydırıyor.*/
+body::before{
+    display: block;
+    content: '';
+    height: 70px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+  }
